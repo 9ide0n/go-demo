@@ -16,7 +16,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - .:/var/lib/registry
+      - /hosthome/gide0n/Downloads/go-demo:/var/lib/registry
     restart: always
 
   consul-server:
